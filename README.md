@@ -1,6 +1,6 @@
 # shuffler
 
-Go package with 6 popular shuffling algorithms]
+Go package with 6 popular shuffling algorithms
 
 ## Installation
 
