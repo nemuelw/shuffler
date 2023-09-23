@@ -23,4 +23,13 @@ func KnuthShuffle[T any](arr []T) {
 	}
 }
 
+func SattolosShuffle[T any](arr []T) {
+	rand.Seed(time.Now().UnixNano())
+	n := len(arr)
+	for i := n - 1; i >= 1; i-- {
+		j := rand.Intn(i)
+		arr[i], arr[j] = arr[j], arr[i]
+	}
+}
+
 
