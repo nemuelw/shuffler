@@ -1,6 +1,6 @@
 # shuffler
 
-Go package
+Go package with 6 popular shuffling algorithms for efficient and versatile randomness
 
 ## Installation
 
@@ -10,7 +10,7 @@ go get github.com/nemzyxt/shuffler
 
 ## Usage
 
-Example:\
+Example:
 
 ```
 package main
