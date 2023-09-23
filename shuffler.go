@@ -1,7 +1,6 @@
 package shuffler
 
 import (
-	"fmt"
 	"math/rand"
 	"time"
 )
