@@ -18,7 +18,7 @@ func KnuthShuffle[T any](arr []T) {
 	rand.Seed(time.Now().UnixNano())
 	n := len(arr)
 	for i := 0; i < n; i++ {
-		j := i + rand.Intn(n - i)
+		j := i + rand.Intn(n-i)
 		arr[i], arr[j] = arr[j], arr[i]
 	}
 }
