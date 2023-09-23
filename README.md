@@ -16,14 +16,14 @@ Example:\
 package main
 
 import (
-	"fmt"
-	"github.com/nemzyxt/shuffler"
+    "fmt"
+    "github.com/nemzyxt/shuffler"
 )
 
 func main() {
-	arr := [5]int{1, 2, 3, 4, 5}
-	shuffler.FisherYatesShuffle[int](arr[:]) // use the Fisher-Yates algorithm
-	fmt.Println(arr)
+    arr := [5]int{1, 2, 3, 4, 5}
+    shuffler.FisherYatesShuffle[int](arr[:]) // use the Fisher-Yates algorithm
+    fmt.Println(arr)
 }
 ```
 
